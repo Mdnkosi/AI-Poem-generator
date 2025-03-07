@@ -7,6 +7,7 @@
   <title>Ai poem generator</title>
 </head>
 <body>
+  <div class="container">
   <header>
     <h1>AI Poems</h1>
   </header>
@@ -14,18 +15,19 @@
     <form>
       <input 
       type="text" 
-      placeholder="Enter the topic of the poem" 
+      placeholder="Enter the topic of you poem..." 
       autofocus 
       required 
       autocomplete="off"
+      class="instructions"
       />
-      <input type="submit" />
+      <input type="submit" class="submit-button"/>
     </form>
-    <div>
+    <div class="poem">
       Love is a light, so pure and true, A bond unspoken, yet felt by you. It whispers softly, like a gentle breeze, Filling
       hearts with warmth and ease.
       
-      A quiet promise, forever to stay, Guiding souls through night and da
+      A quiet promise, forever to stay, Guiding souls through night and day.
     </div>
   </main>
   <script src="src/java.js"></script>
@@ -33,4 +35,5 @@
   <footer>This project was coded by <a href="https://github.com/Mdnkosi" target="_blank">Mahlatse Nkosi</a> and is opensourced on 
     <a href="https://github.com/Mdnkosi/AI-Poem-generator" target="_blank">Github</a></footer>
 </body>
+</div>
 </html>
