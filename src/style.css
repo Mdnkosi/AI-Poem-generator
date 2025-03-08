@@ -17,12 +17,27 @@ header{
   margin-bottom: 30px;
 }
 
+
 form{
+  
+  display: flex;
+  
+}
+.form-wrapper{
   padding: 20px;
   background-color: white;
   border-radius: 20px;
-  display: flex;
   margin-bottom: 30px;
+}
+.hint{
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 12px;
+  opacity: 0.6;
+
+}
+.hidden{
+  display:none;
 }
 
 .instructions{
@@ -56,4 +71,14 @@ footer{
   margin-top: 15px;
   text-align: center;
   font-size: 15px;
+}
+.generating {
+  animation: blinker 3s linear infinite;
+  text-transform: capitalize;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
